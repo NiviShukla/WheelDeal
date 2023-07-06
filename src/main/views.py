@@ -11,7 +11,7 @@ from .filters import ListingFilter
 
 
 def main_view(request):
-    return render(request, "views/main.html", {"name": "AutoMax"})
+    return render(request, "views/main.html", {"name": "Wheeldeal"})
 
 
 @login_required
